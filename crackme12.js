@@ -1,9 +1,9 @@
 // Vous devez assigner la bonne string à la variable password ci dessous
 // Et obtenir le message 'OK' en éxecutant le programme
-let password = 'password'
+let password = ''
 
 const crackme12 = (password) => {
-  if (password === 'passw­ord') {
+  if (password === '') {
     console.log('OK')
   } else {
     console.log('BAD')
